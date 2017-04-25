@@ -1039,7 +1039,7 @@ li {
 		line-height: 50px;
 	}
 	#banner {
-		margin-top: 15px;
+		margin-top: 70px;
 	}
 	.match-items {
     margin-right: -3px;
@@ -1055,8 +1055,8 @@ li {
 		display: none;
 	}
 	.header-affix-inner ul li {
-		margin: 0 5px;
-		font-size: 24px;
+		margin: 0 3px;
+		font-size: 26px;
 	}
 	.header-affix-inner ul li a {
 		font-size: 24px;
@@ -1073,7 +1073,7 @@ li {
 		right: 3%;
 	}
 	#insight-header .header-logo {
-		width: 20%;
+		float: left;
 	}
 	.contain-body .contain-items-classify {
 		width: 48%;
@@ -1090,5 +1090,28 @@ li {
 	}
 	#insight-header .header-body .rightIcon {
 		margin-right: 20px;
+		margin-top: 30px;
+	}
+	.sub-header {
+		position: relative;
+	}
+	.sub-header-affix {
+		height: 70px;
+		line-height: 70px;
+	}
+	.affix-logo {
+		margin: 15px 20px 5px 20px;
+	}
+	#insight-header .header-body .rightInput input, #insight-header .header-body .rightInput button {
+		margin-top: 70px;
+	}
+	#insight-header .header-body .rightInput {
+		margin: 0 0 0 4%;
+	}
+	#insight-header .header-body {
+		height: 80px;
+	}
+	#insight-header .header-body img {
+		margin-top: 40px;
 	}
 }
