@@ -75,7 +75,7 @@ a {
   height: 30px;
 }
 
-#insight-header .header-body .rightIcon li {
+#insight-header .header-body .rightIcon li, #insight-header .header-body .rightIcon a {
   font-size: 14px;
   color: #999;
   display: inline-block;
@@ -86,7 +86,11 @@ a {
   position: relative;
 }
 
-#insight-header .header-body .rightIcon li img {
+#insight-header .header-body .rightIcon a {
+	display: none;
+}
+
+#insight-header .header-body .rightIcon li img, #insight-header .header-body .rightIcon a img {
   position: relative;
   top: 9px;
   left: 0;
@@ -730,6 +734,11 @@ li {
 	cursor: pointer;
 }
 
+.mobile-app-qr {
+	position: relative;
+	cursor: pointer;
+}
+
 .qr {
 	position: absolute !important;
 	top: 35px !important;
@@ -866,7 +875,8 @@ li {
 }
 
 .sub-header-affix {
-	position: absolute;
+	position: fixed;
+	top: 0px;
 	height: 50px;
 	line-height: 50px;
 	width: 100%;
@@ -916,11 +926,6 @@ li {
 .header-affix-inner ul li a {
 	font-size: 14px;
 	color: #666;
-}
-
-.header-affix {
-	position: fixed;
-	top: 0px;
 }
 
 .swiper-container {
@@ -1111,5 +1116,11 @@ li {
 	}
 	#insight-header .header-body img {
 		margin-top: 40px;
+	}
+	.mobile-app-qr {
+		display: inline-block !important;
+	}
+	.app-qr {
+		display: none !important;
 	}
 }

@@ -25,7 +25,6 @@
 		methods: {
 			goAnchor(e) {
 				var target = e.currentTarget.className;
-				// $('#'+target).scrollTop = 0;
 				$("html,body").animate({scrollTop:$("#" + target).offset().top - 50}, 300);
 			}
 		}

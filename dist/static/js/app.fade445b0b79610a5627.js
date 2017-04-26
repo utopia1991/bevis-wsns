@@ -500,6 +500,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = {
 	mounted() {
@@ -563,7 +566,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 	methods: {
 		goAnchor(e) {
 			var target = e.currentTarget.className;
-			// $('#'+target).scrollTop = 0;
 			$("html,body").animate({ scrollTop: $("#" + target).offset().top - 50 }, 300);
 		}
 	}
@@ -1629,7 +1631,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "src": "/static/images/qr.png"
     }
-  })]), _vm._v(" "), _vm._m(1)])], 1), _vm._v(" "), _c('div', {
+  })]), _vm._v(" "), _vm._m(1), _vm._v(" "), _vm._m(2)])], 1), _vm._v(" "), _c('div', {
     staticClass: "sub-header"
   }, [_c('ul', {
     staticClass: "fixWidth"
@@ -1701,6 +1703,19 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "alt": ""
     }
   }), _vm._v(" 每天十点更新\n\t\t\t")])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('a', {
+    staticClass: "mobile-app-qr",
+    attrs: {
+      "href": "http://a.app.qq.com/o/simple.jsp?pkgname=com.bangma.wsns",
+      "target": "_blank"
+    }
+  }, [_c('img', {
+    attrs: {
+      "src": "/static/images/icon-phone.png",
+      "alt": ""
+    }
+  }), _vm._v(" APP下载\n\t\t\t")])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('li', [_c('img', {
     attrs: {
@@ -2878,4 +2893,4 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 
 /***/ })
 ],[73]);
-//# sourceMappingURL=app.6d316ae28104fae2b0d3.js.map
+//# sourceMappingURL=app.fade445b0b79610a5627.js.map

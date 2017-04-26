@@ -17,9 +17,9 @@
 		}
 
 		if (d >= 140) {
-			$subHeader.removeClass('none').addClass('header-affix');
+			$subHeader.removeClass('none');
 		} else {
-			$subHeader.addClass('none').removeClass('header-affix');
+			$subHeader.addClass('none');
 		}
 	});
 

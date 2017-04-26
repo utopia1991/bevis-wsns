@@ -16,6 +16,9 @@
 					<img src="/static/images/icon-phone.png" alt="" /> APP下载
 					<img src="/static/images/qr.png" class="qr none"/>
 				</li>
+				<a class="mobile-app-qr" href="http://a.app.qq.com/o/simple.jsp?pkgname=com.bangma.wsns" target="_blank">
+					<img src="/static/images/icon-phone.png" alt="" /> APP下载
+				</a>
 				<li>
 					<img src="/static/images/icon-wechat.png" alt="" /> 关注公众号
 				</li>
