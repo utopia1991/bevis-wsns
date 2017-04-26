@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我是女生，精选100元以下的女装好货</title>
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="我是女生利用大数据分析天猫、淘宝亿万用户的购买喜好，挑选出价格实惠而又有品质的女装，她还涵盖了女鞋、包包、美妆、配饰、内衣等品类，全部精选月销量过万的实惠商品，只为更美的你。">
+		<meta name="Keywords" content="我是女生，女装，蘑菇街，吊带，背心，连衣裙">
+		<link rel="icon" href="http://www.wsns66.com/static/images/icon.png" type="image/x-icon">
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?d5f62c863ca726ec8cad475a9a94d3e1";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</head>
+	<body>
+		<script>
+			(function(){
+				function UrlSearch()
+				{
+					var name,value;
+					var str=location.href; //取得整个地址栏
+					var num=str.indexOf("?");
+					str=str.substr(num+1);
+
+					var arr=str.split("&"); //各个参数放到数组里
+					for(var i=0;i < arr.length;i++){
+						num=arr[i].indexOf("=");
+						if(num>0){
+							name = arr[i].substring(0,num);
+							value = arr[i].substr(num+1);
+							this[name] = value;
+						}
+					}
+				}
+				var Request = new UrlSearch(); //实例化
+				var url = Request.url;
+
+				window.location.href = url;
+			})();
+		</script>
+	</body>
+</html>

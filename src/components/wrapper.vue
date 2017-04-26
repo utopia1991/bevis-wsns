@@ -579,7 +579,7 @@
 				$.get(apiURL+'38', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.waregoods = goods;
 					self.warecount = data.result.total;
@@ -588,7 +588,7 @@
 				$.get(apiURL+'15', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.tgoods = goods;
 					self.tcount = data.result.total;
@@ -597,7 +597,7 @@
 				$.get(apiURL+'16', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.dressgoods = goods;
 					self.dresscount = data.result.total;
@@ -606,7 +606,7 @@
 				$.get(apiURL+'19', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.jeansgoods = goods;
 					self.jeanscount = data.result.total;
@@ -615,7 +615,7 @@
 				$.get(apiURL+'17', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.shirtgoods = goods;
 					self.shirtcount = data.result.total;
@@ -624,7 +624,7 @@
 				$.get(apiURL+'20', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.skirtgoods = goods;
 					self.skirtcount = data.result.total;
@@ -633,7 +633,7 @@
 				$.get(apiURL+'21', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.pathgoods = goods;
 					self.pathcount = data.result.total;
@@ -642,7 +642,7 @@
 				$.get(apiURL+'37', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.innerpathgoods = goods;
 					self.innerpathcount = data.result.total;
@@ -651,7 +651,7 @@
 				$.get(apiURL+'18', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.knitweargoods = goods;
 					self.knitwearcount = data.result.total;
@@ -660,7 +660,7 @@
 				$.get(apiURL+'22', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.fleecegoods = goods;
 					self.fleececount = data.result.total;
@@ -669,7 +669,7 @@
 				$.get(apiURL+'23', function(data) {
 					var goods = data.result.goodsList.slice(0,7);
 					_.map(goods, function(good){
-						good.pcLinkurl = '/go?url=' + good.pcLinkurl
+						good.pcLinkurl = '/go.html?url=' + good.pcLinkurl
 					});
 					self.coatgoods = goods;
 					self.coatcount = data.result.total;

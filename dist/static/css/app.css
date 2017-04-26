@@ -965,7 +965,7 @@ li {
 	}
 	.contain-body .contain-items {
 		width: 48%;
-		height: 700px;
+		height: 670px;
 		margin-right: 0px;
     margin-left: 17px;
 	}
@@ -1005,10 +1005,8 @@ li {
 		font-size: 30px;
 	}
 	.classify-items {
-		width: 31%;
-		height: 316px;
-		margin-left: 10px;
-    margin-right: 8px;
+		margin-left: 15px;
+		margin-right: -10px;
 	}
 	#right-menu {
 		width: 100px;
@@ -1077,7 +1075,7 @@ li {
 	}
 	.contain-body .contain-items-classify {
 		width: 48%;
-		height: 700px;
+		height: 670px;
 		margin-right: -2px;
     margin-left: 20px;
 	}

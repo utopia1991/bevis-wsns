@@ -84,7 +84,7 @@
 				$.get(apiURL, function(data) {
 					var oGoods = data.result.goodsList;
 					_.map(oGoods, function(oGood){
-						oGood.pcLinkurl = '/go?url=' + oGood.pcLinkurl;
+						oGood.pcLinkurl = '/go.html?url=' + oGood.pcLinkurl;
 					});
 					self.goods = oGoods;
 					self.count = data.result.total;
